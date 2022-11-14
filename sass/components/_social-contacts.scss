@@ -1,0 +1,28 @@
+.social-contacts {
+  display: flex;
+  justify-content: center;
+
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    color: $color-icon;
+
+    fill: currentColor;
+
+    transition: background-color $transition, color $transition;
+
+    &:hover,
+    &:focus {
+      background-color: $hover-focus-button;
+      color: $color-primery-white;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__title {
+    color: $color-title;
+
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+}
+
+.clients {
+  display: flex;
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__link {
+    width: 170px;
+    height: 92px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid $color-icon;
+    border-radius: 4px;
+
+    fill: $color-icon;
+
+    transition: border-color $transition, fill $transition;
+
+    &:hover,
+    &:focus {
+      border-color: $hover-focus-button;
+      fill: $hover-focus-button;
+    }
+  }
+}

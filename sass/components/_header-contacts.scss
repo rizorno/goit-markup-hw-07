@@ -1,0 +1,38 @@
+.header-contacts {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  &--margin-left {
+    margin-left: auto;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__link {
+    color: $color-text;
+
+    display: flex;
+    align-items: center;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    transition: color $transition;
+
+    &:hover,
+    &:focus {
+      color: $hover-focus-button;
+    }
+  }
+
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+}
