@@ -364,8 +364,8 @@ p {
   background-size: contain;
 }
 .form-contacts__checkbox-input:checked {
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   margin-right: 23px;
   padding: 0;
   border: 0;
