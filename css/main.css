@@ -492,6 +492,9 @@ p {
   margin-bottom: 0;
 }
 
+.section-services {
+  padding-bottom: 94px;
+}
 .section-services__title {
   color: #212121;
   font-size: 36px;
