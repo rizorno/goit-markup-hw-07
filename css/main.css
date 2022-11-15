@@ -443,7 +443,8 @@ p {
 }
 
 .section-features {
-  padding: 94px 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-features__title {
   color: transparent;
